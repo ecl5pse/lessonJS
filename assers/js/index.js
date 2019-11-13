@@ -124,6 +124,7 @@ while( i++ < userNumberS ){
 
 */
 
+/*
 
 let userNumber = prompt("Please input your number");
 
@@ -140,6 +141,7 @@ let i = 0;
 
 
 
+*/
 
 
 /*
@@ -163,8 +165,25 @@ while (i++ <= minValue){
 
 
 
+function pow(base , exponet) {
+
+    if (exponet === 1 ){
+        return base;
+    }
+    return  pow(base, exponet - 1)* base;
+}
 
 
+function facterial(number) {
+    if (number === 1){
+        return 1;
+    }
+    return facterial(number - 1) * number;
+}
+
+
+console.log(pow(5, 2));
+console.log(facterial(170));
 
 
 
