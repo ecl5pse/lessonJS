@@ -165,6 +165,171 @@ while (i++ <= minValue){
 
 
 
+
+
+/*
+
+const userNumberValue = prompt("Please input your number");
+const userExponentValue = prompt("Please input your exponent");
+let userNumber = Number(userNumberValue);
+let userExponen = Number(userExponentValue);
+
+    let  i = 1
+
+while (i++< userExponen ){
+
+        userNumber*=userExponen;
+
+}
+console.log(userNumber);
+
+*/
+
+/*const userNumberValueOne = prompt("Please input your number one");
+const userNumberValueTwo  = prompt("Please input your  number two");
+let userNumberOne = Number(userNumberValueOne);
+let userNumberTwo = Number(userNumberValueTwo);
+
+
+const min = userNumberOne > userNumberTwo  ? userNumberTwo : userNumberOne;
+
+
+let  i = 0;
+
+while (i++ <= min){
+
+
+    if(userNumberOne % 1 === 0 && userNumberTwo % 1 === 0){
+        console.log(i);
+    }
+}*/
+
+/*
+
+const  userValue = prompt("Input youte value")
+const  userNumber = Number(userValue);
+
+    if(userNumber == 0 ){
+    console.log(1);
+
+    break;
+    }
+
+
+ let i = 1;
+ let resul = 1;
+
+ while (i++ < userNumber){
+     resul * = 1
+ }
+
+console.log(resul);
+
+
+*/
+
+/*
+
+
+const firstValue = prompt("First value):
+    const secondValue = prompt("Second value");
+
+const  minValue = firstValue > secondValue ? secondValue : firstValue ;
+
+let i = 0;
+
+while (i++ <= minValue){
+    if ( firstValue % i === 0 && secondValue & i === 0);{
+        console.log(i);
+
+    }
+}
+
+*/
+
+
+
+/*
+
+let value = prompt("How much will 2 + 2 * 2 = ");
+let number = Number(value);
+
+let  i = 1;
+
+
+
+ if ( number < 0 ) {
+     console.log("no")
+
+ }else {
+
+     do {
+         if (number == 0) {
+             console.log("no");
+
+         } else if (number == 8) {
+             console.log('good')
+
+         }
+
+
+     } while ( number <5)
+
+     let value = prompt("How much will 2 + 2 * 2 = ");
+ }
+
+
+
+*/
+
+
+/*
+const value = prompt("inpunt number");
+const number = Number(value);
+
+
+
+for ( let i = 0; i<100 ; i++){
+
+      if (number % 1 === 0) {
+
+          console .log( i + number);
+      }
+
+}
+
+*/
+
+
+const valueMin = prompt("inpunt number");
+const valueMax = prompt("inpunt number");
+let  numberMin = Number(valueMin);
+let numberMax = Number(valueMax);
+
+
+for (let i = numberMin;i<numberMax; i+=
+    {
+        console.log(i);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function pow(base , exponet) {
 
     if (exponet === 1 ){
